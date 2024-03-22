@@ -7,20 +7,20 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MainView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
+            Image(systemName: "applelogo")
                 .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+                .foregroundColor(.black)
+            Text("Hello, Apple!")
         }
         .padding()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct MainView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MainView()
     }
 }
