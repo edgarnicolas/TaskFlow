@@ -8,14 +8,23 @@
 import SwiftUI
 
 struct LoginView: View {
+    
     var body: some View {
-        VStack{
-            //Header
-            HeaderView()
+        NavigationView{
+            VStack{
+                
+                //Header
+                HeaderView()
+                
+                //Login Form
+                LoginBodyView()
+                
+                //Create Account
+                NewHereView()
+                
+                Spacer()
+            }
             
-            //Login Form
-            
-            Spacer()
         }
     }
 }
